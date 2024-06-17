@@ -1,0 +1,103 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000; 
+  background-color: black;
+  color: white;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  margin-left: -20px; 
+}
+
+.menu-icon {
+  margin-left: 30px; 
+  cursor: pointer;
+  z-index: 1001; 
+}
+
+.menu-overlay {
+  position: fixed;
+  top: 60px; 
+  left: 0;
+  width: 100%;
+  height: calc(100% - 60px); 
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999; 
+  display: none;
+}
+
+.menu-overlay.show {
+  display: block;
+}
+
+.menu-container {
+  position: fixed;
+  top: 60px; 
+  left: -250px; 
+  width: 250px;
+  height: calc(100% - 60px); 
+  background-color: black;
+  color: white;
+  transition: left 0.3s ease;
+  z-index: 1000; 
+  overflow-y: auto;
+}
+
+.menu-container.show {
+  left: 0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.menu-items a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.menu-items a:hover {
+  background-color: #333;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  z-index: 1001; 
+}
+
+.logo {
+  max-width: 100px;
+  height: auto;
+  margin-right: 30px; 
+}
+
+.lisbon-time {
+  margin-left: auto;
+  margin-right: 10px;
+  z-index: 1001; 
+}
+
+@media screen and (max-width: 768px) {
+  .menu-container {
+    width: 200px; 
+  }
+}

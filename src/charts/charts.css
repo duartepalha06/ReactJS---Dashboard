@@ -1,0 +1,24 @@
+.chart-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .chart {
+    background-color: #f1f1f1;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    min-width: 0;
+  }
+  
+  @media screen and (max-width: 767px) {
+    .chart {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  

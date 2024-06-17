@@ -1,0 +1,190 @@
+.collapsible-container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.collapsible-left,
+.collapsible-right {
+  width: calc(50% - 10px);
+  box-sizing: border-box;
+}
+
+.collapsible {
+  background-color: #0056b3;
+  color: white;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.collapsible.active,
+.collapsible:hover {
+  background-color: #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+  padding: 0 18px;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  border-radius: 0 0 8px 8px;
+  box-sizing: border-box;
+  max-height: 0;
+  transition: max-height 0.5s ease-out, padding 0.5s ease-out, box-shadow 0.5s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content.active {
+  max-height: 1000px;
+  padding: 18px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.inner-content {
+  padding: 18px;
+  background-color: #ddd;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.info-label {
+  font-weight: bold;
+}
+
+.info-value {
+  display: flex;
+  align-items: center;
+}
+
+.edit-input {
+  flex: 1;
+  padding: 5px;
+  font-size: 16px;
+  width: 100%;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .edit-input {
+    width: 80%;
+  }
+}
+
+.edit-icon {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+.button-save,
+.button-cancel {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  font-size: 12px;
+}
+
+.button-save:hover,
+.button-cancel:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (min-width: 800px) {
+  .collapsible-left {
+    width: calc(50% - 10px);
+  }
+
+  .collapsible-right {
+    width: calc(50% - 10px);
+  }
+}
+
+@media (max-width: 799px) {
+  .collapsible-left,
+  .collapsible-right {
+    width: 100%;
+  }
+
+  .collapsible {
+    padding: 12px;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .content {
+    padding: 12px;
+  }
+
+  .inner-content {
+    padding: 12px;
+  }
+}
+
+/* InnerCollapsible styles */
+
+.inner-collapsible-container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.inner-collapsible {
+  background-color: #cccccc;
+  color: black;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 16px;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.inner-collapsible.active,
+.inner-collapsible:hover {
+  background-color: #dddddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inner-content {
+  padding: 0 10px;
+  overflow: hidden;
+  background-color: #eeeeee;
+  border-radius: 0 0 5px 5px;
+  box-sizing: border-box;
+  max-height: 0;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inner-content.active {
+  max-height: 500px;
+  padding: 10px;
+}
