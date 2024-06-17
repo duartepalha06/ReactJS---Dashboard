@@ -1,15 +1,9 @@
-<!DOCTYPE html>
-<html>
+---
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Readme.md</title>
-  <link rel="stylesheet" href="https://stackedit.io/style.css" />
-</head>
 
-<body class="stackedit">
-  <div class="stackedit__html"><p align="center">
+---
+
+<p align="center">
   <a href="" rel="noopener">
  <img width="200px" height="200px" src="https://i.imgur.com/6wj0hh6.jpg" alt="Logo do Projeto"></a>
 </p>
@@ -70,7 +64,7 @@ npm start
 <h2 id="✍️-autores-a-name--autoresa">✍️ Autores <a></a></h2>
 <ul>
 <li><a href="https://github.com/buraca27">@buraca27</a> - Backend &amp; Frontend</li>
-<li><a href="https://github.com/duarte">@duarte</a> - Frontend</li>
+<li><a href="https://github.com/duartepalha06">@duartepalha06</a> - Frontend</li>
 </ul>
 <h2 id="🎉-agradecimentos-a-name--agradecimentosa">🎉 Agradecimentos <a></a></h2>
 <ul>
@@ -87,7 +81,4 @@ npm start
 </ul>
 </li>
 </ul>
-</div>
-</body>
 
-</html>
