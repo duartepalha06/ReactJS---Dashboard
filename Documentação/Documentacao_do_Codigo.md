@@ -1,6 +1,5 @@
 ---
 
-
 ---
 
 <h2 id="documentação-do-códigoa-name--documentacaoa">&lt;/&gt; Documentação do Código<a></a></h2>
