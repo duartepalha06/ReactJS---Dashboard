@@ -1,9 +1,15 @@
----
+<!DOCTYPE html>
+<html>
 
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Readme.md</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
 
----
-
-<p align="center">
+<body class="stackedit">
+  <div class="stackedit__html"><p align="center">
   <a href="" rel="noopener">
  <img width="35%" height="35%" src="https://i.ibb.co/d44MC37/transferir.png" alt="Logo do Projeto"></a>
 </p>
@@ -81,4 +87,7 @@ npm start
 </ul>
 </li>
 </ul>
+</div>
+</body>
 
+</html>
