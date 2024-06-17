@@ -1,8 +1,5 @@
 ---
 
-
----
-
 <p align="center">
   <a href="" rel="noopener">
  <img width="200px" height="200px" src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="Logo do Projeto"></a>
